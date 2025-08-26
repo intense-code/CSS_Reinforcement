@@ -1,31 +1,110 @@
+body{
+    font-family: "Courier New", monospace;
+}
+
+
 .first-article {
-  border: 5px solid greenyellow;
-  background-color: purple;
+    font-family: 'Roboto', "Courier New", monospace;
+  border-radius:20px;
+  border:4px solid greenyellow;
+  background-color: red;
   color: white;
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .first-h2 {
+  font-style:italic;
   color: yellow;
-}
+}   
 
 .second-h2 {
+  text-transform: uppercase;
   color: red;
 }
 
 .third-article {
-  background-color: lightcoral;
-  border: 3px dotted;
+  background-color: lightblue;
+  border: 5px dashed;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+.third-article p{
+    font-size:18px;
+}
+.fancy-button:hover {
+  border: 3px solid black;
+  font-size: 20px;
+  background-color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 20px;
 }
 
 .fancy-button {
   border: 3px solid black;
   font-size: 20px;
-  background-color: aqua;
+  background-color: orange;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-radius: 20px;
 }
 body {
   background-color: lightgray;
+}
+.ui-section {
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+/* The twoo buttons */
+.btn{
+    border-radius: 10px ;
+    width:200px;
+    height:60px;
+    margin:10px;
+    padding:10px;
+    font-size: 22px;
+    font-family: Roboto, "Courier New", monospace;
+    /* font-weight: bold; */
+}
+.btn-primary{
+
+    border:2px solid darkblue;
+    background-color: #007ACC;
+    color: white;
+}
+/* The square boxes */
+.alert {
+    width: 98%;
+    height: 6vh;
+    margin: 0 auto;
+    padding: 2px 0 2px 2vw; /* top, right, bottom, left */
+    text-align: left;
+    line-height: 7vh; /* vertically center text in the box */
+}
+.alert.alert-success{
+    color:#296634;
+    border:solid #31773E 2px;
+    background-color:#B2F2B0;
+    margin-bottom: 4px;
+}
+.alert.alert-warning{
+    margin-top:4px;
+    color: #A07C41;
+    border:solid #cc673f 2px;
+    background-color:#FFF4D6;
+}
+.badge {
+    padding: 5px 18px;
+    width: auto;  
+    margin: 4px;
+    height:  auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight:normal;
+    border: 4px solid #000000;
+    background-color: #E0F7FA;
+    border-radius: 30px;
+}
+.badge.badge-new{
+    color:#004D5A;
 }
