@@ -89,10 +89,11 @@ body {
 }
 .alert.alert-warning{
     margin-top:4px;
-    color: #A07C41;
-    border:solid #cc673f 2px;
+    color: #d4240d ;
+    border:solid #d4240d 2px;
     background-color:#FFF4D6;
 }
+/* The round badges */
 .badge {
     padding: 5px 18px;
     width: auto;  
@@ -107,4 +108,40 @@ body {
 }
 .badge.badge-new{
     color:#004D5A;
+}
+.badge.badge-info {
+    font-family: sans-serif, monospace, cursive, serif, fantasy;
+    color: #1A237F;
+}
+.badge.badge-sale{
+    color:#8C0400
+}
+/* The product cards */
+.card {
+    width: 300px;
+    border: 2px solid #E0E0E0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #181717;
+} 
+.card-title {
+    padding-left:13px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #24d40d;
+}
+.card-text{
+    font-size: 16px;
+    color: #d4d0d0;
+    margin: 10px 15px;
+}
+.card-link{
+    font-size: 16px;
+    margin: 10px 15px;
+    color: #007BFF;
+    text-decoration: none;
 }
