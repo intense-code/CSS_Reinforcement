@@ -116,7 +116,7 @@ body {
 .badge.badge-sale{
     color:#8C0400
 }
-/* The product cards */
+/* The product */
 .card {
     width: 300px;
     border: 2px solid #E0E0E0;
@@ -144,4 +144,156 @@ body {
     margin: 10px 15px;
     color: #007BFF;
     text-decoration: none;
+}
+/*Header Bar*/
+.header-bar{
+    padding: 10px 20px;
+    background-color: #1c1c1d;
+    color: white;
+    border-radius: 10px;
+
+}
+.brand{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Basic Table Styling*/
+.premium{
+    font-size: 18px;
+    margin: 0;
+    background-color: gold;
+    font-family: 'Courier New', monospace;
+}
+.standard{
+    font-size: 18px;
+    margin: 0;
+    background-color: green;
+    font-family: 'Courier New', monospace;
+}
+.basic{
+    font-size: 18px;
+    margin: 0;
+    background-color: rgba(238, 100, 8, 0.966);
+    font-family: 'Courier New', monospace;
+}
+.btnPremium{
+    border: 2px solid black;
+    background-color: gold;
+    color: black;
+    width:100%;
+    font-weight: bold;
+}
+.btnPremium:hover{
+    color:white;
+    background-color: black;   
+}
+.btnStandard{
+    border: 2px solid black;
+    background-color: green;
+    color: black;
+    width:100%;
+    font-weight: bold;
+}
+.btnStandard:hover{
+    background-color: lightgreen;   
+}   
+.btnBasic{
+    border: 2px solid black;
+    background-color: rgba(238, 100, 8, 0.966);
+    color: black;
+    width:100%;
+    font-weight: bold;
+}
+.tdBasic{
+    background: linear-gradient(90deg, #007ACC 0%, #24d40d 100%);
+}
+.tdStandard{
+    background: linear-gradient(90deg, #007ACC 0%, #24d40d 100%);
+}
+.tdPremium{
+    background: linear-gradient(90deg, #007ACC 0%, #24d40d 100%);   
+}
+.btnBasic:hover{
+    background-color: orange;   
+}   
+table tr th.scope{
+    color:black;
+    font-size: 16px;
+    margin: 10px 15px;
+    background: linear-gradient(90deg, #007ACC 0%, #24d40d 100%);
+}
+/* Sophisticated table styling */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #5b8dbe;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+thead th {
+    background: linear-gradient(90deg, #007ACC 0%, #24d40d 100%);
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 16px 12px;
+    border-bottom: 3px solid #e0e0e0;
+    text-align: left;
+}
+
+tbody th.scope {
+    background: #e9ecef;
+    color: #333;
+    font-weight: bold;
+    padding: 12px 10px;
+    border-right: 2px solid #e0e0e0;
+}
+
+td, th {
+    padding: 12px 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+tbody tr:last-child td, 
+tbody tr:last-child th {
+    border-bottom: none;
+}
+
+tbody td {
+    background: #fff; 
+    transition: background 0.2s;
+}
+
+tbody tr:hover td, 
+tbody tr:hover th.scope {
+    background: #e3f2fd;
+}
+
+td.premium, th.premium {
+
+    background: #c7b70b;
+    color: #080808;
+}
+
+td.standard, th.standard {
+    background: #5ab361;
+    color: #050505;
+}
+
+td.basic, th.basic {
+    background: #030303;
+    color: #ee2309;
+}
+
+.btnPremium, .btnStandard, .btnBasic {
+    margin: 0;
+    font-size: 1em;
+    border-radius: 8px;
+    padding: 8px 0;
+    width: 90%;
 }
