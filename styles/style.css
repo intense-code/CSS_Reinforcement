@@ -1,0 +1,299 @@
+body{
+    font-family: "Courier New", monospace;
+}
+
+
+.first-article {
+    font-family: 'Roboto', "Courier New", monospace;
+  border-radius:20px;
+  border:4px solid greenyellow;
+  background-color: red;
+  color: white;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+.first-h2 {
+  font-style:italic;
+  color: yellow;
+}   
+
+.second-h2 {
+  text-transform: uppercase;
+  color: red;
+}
+
+.third-article {
+  background-color: lightblue;
+  border: 5px dashed;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.third-article p{
+    font-size:18px;
+}
+.fancy-button:hover {
+  border: 3px solid black;
+  font-size: 20px;
+  background-color: green;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 20px;
+}
+
+.fancy-button {
+  border: 3px solid black;
+  font-size: 20px;
+  background-color: orange;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-radius: 20px;
+}
+body {
+  background-color: lightgray;
+}
+.ui-section {
+    background-color: white;
+    border-radius: 10px;
+    margin: 20px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+/* The twoo buttons */
+.btn{
+    border-radius: 10px ;
+    width:200px;
+    height:60px;
+    margin:10px;
+    padding:10px;
+    font-size: 22px;
+    font-family: Roboto, "Courier New", monospace;
+    /* font-weight: bold; */
+}
+.btn-primary{
+
+    border:2px solid darkblue;
+    background-color: #007ACC;
+    color: white;
+}
+/* The square boxes */
+.alert {
+    width: 98%;
+    height: 6vh;
+    margin: 0 auto;
+    padding: 2px 0 2px 2vw; /* top, right, bottom, left */
+    text-align: left;
+    line-height: 7vh; /* vertically center text in the box */
+}
+.alert.alert-success{
+    color:#296634;
+    border:solid #31773E 2px;
+    background-color:#B2F2B0;
+    margin-bottom: 4px;
+}
+.alert.alert-warning{
+    margin-top:4px;
+    color: #d4240d ;
+    border:solid #d4240d 2px;
+    background-color:#FFF4D6;
+}
+/* The round badges */
+.badge {
+    padding: 5px 18px;
+    width: auto;  
+    margin: 4px;
+    height:  auto;
+    text-align: center;
+    font-size: 30px;
+    font-weight:normal;
+    border: 4px solid #000000;
+    background-color: #E0F7FA;
+    border-radius: 30px;
+}
+.badge.badge-new{
+    color:#004D5A;
+}
+.badge.badge-info {
+    font-family: sans-serif, monospace, cursive, serif, fantasy;
+    color: #1A237F;
+}
+.badge.badge-sale{
+    color:#8C0400
+}
+/* The product */
+.card {
+    width: 300px;
+    border: 2px solid #E0E0E0;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    overflow: hidden;
+    font-family: Arial, sans-serif;
+    background-color: #181717;
+} 
+.card-title {
+    padding-left:13px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #24d40d;
+}
+.card-text{
+    font-size: 16px;
+    color: #d4d0d0;
+    margin: 10px 15px;
+}
+.card-link{
+    font-size: 16px;
+    margin: 10px 15px;
+    color: #007BFF;
+    text-decoration: none;
+}
+/*Header Bar*/
+.header-bar{
+    padding: 10px 20px;
+    background-color: #1c1c1d;
+    color: white;
+    border-radius: 10px;
+
+}
+.brand{
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*Basic Table Styling*/
+.premium{
+    font-size: 18px;
+    margin: 0;
+    background-color: gold;
+    font-family: 'Courier New', monospace;
+}
+.standard{
+    font-size: 18px;
+    margin: 0;
+    background-color: green;
+    font-family: 'Courier New', monospace;
+}
+.basic{
+    font-size: 18px;
+    margin: 0;
+    background-color: rgba(238, 100, 8, 0.966);
+    font-family: 'Courier New', monospace;
+}
+.btnPremium{
+    border: 2px solid black;
+    background-color: gold;
+    color: black;
+    width:100%;
+    font-weight: bold;
+}
+.btnPremium:hover{
+    color:white;
+    background-color: black;   
+}
+.btnStandard{
+    border: 2px solid black;
+    background-color: green;
+    color: black;
+    width:100%;
+    font-weight: bold;
+}
+.btnStandard:hover{
+    background-color: lightgreen;   
+}   
+.btnBasic{
+    border: 2px solid black;
+    background-color: rgba(238, 100, 8, 0.966);
+    color: black;
+    width:100%;
+    font-weight: bold;
+}
+.tdBasic{
+    background: linear-gradient(90deg, #007ACC 0%, #24d40d 100%);
+}
+.tdStandard{
+    background: linear-gradient(90deg, #007ACC 0%, #24d40d 100%);
+}
+.tdPremium{
+    background: linear-gradient(90deg, #007ACC 0%, #24d40d 100%);   
+}
+.btnBasic:hover{
+    background-color: orange;   
+}   
+table tr th.scope{
+    color:black;
+    font-size: 16px;
+    margin: 10px 15px;
+    background: linear-gradient(90deg, #007ACC 0%, #24d40d 100%);
+}
+/* Sophisticated table styling */
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0;
+    background: #5b8dbe;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 24px;
+}
+
+thead th {
+    background: linear-gradient(90deg, #007ACC 0%, #24d40d 100%);
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: bold;
+    padding: 16px 12px;
+    border-bottom: 3px solid #e0e0e0;
+    text-align: left;
+}
+
+tbody th.scope {
+    background: #e9ecef;
+    color: #333;
+    font-weight: bold;
+    padding: 12px 10px;
+    border-right: 2px solid #e0e0e0;
+}
+
+td, th {
+    padding: 12px 10px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+tbody tr:last-child td, 
+tbody tr:last-child th {
+    border-bottom: none;
+}
+
+tbody td {
+    background: #fff; 
+    transition: background 0.2s;
+}
+
+tbody tr:hover td, 
+tbody tr:hover th.scope {
+    background: #e3f2fd;
+}
+
+td.premium, th.premium {
+
+    background: #c7b70b;
+    color: #080808;
+}
+
+td.standard, th.standard {
+    background: #5ab361;
+    color: #050505;
+}
+
+td.basic, th.basic {
+    background: #030303;
+    color: #ee2309;
+}
+
+.btnPremium, .btnStandard, .btnBasic {
+    margin: 0;
+    font-size: 1em;
+    border-radius: 8px;
+    padding: 8px 0;
+    width: 90%;
+}
